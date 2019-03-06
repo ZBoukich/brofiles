@@ -1,7 +1,6 @@
 from enum import IntFlag
 from lxml import etree
 import numpy as np
-from broprofiler import putils
 
 class CptParams(IntFlag):
     DEPTH = 1
@@ -16,26 +15,6 @@ class DissipationtestParams(IntFlag):
     WATERSPANNINGU2 = 3
 
 WAARDEONTBREEKT = -999999
-
-def evaluateRules(doc):
-    listOfErrors = list()
-    appendToErrorList(listOfErrors, ruleConeDiameterFilled, doc)
-    appendToErrorList(listOfErrors, ruleConeSurfaceQuotientFilled, doc)
-    appendToErrorList(listOfErrors, ruleConeToFrictionSleeveDistanceFilled, doc)
-    appendToErrorList(listOfErrors, rulefrictionSleeveSurfaceAreaFilled, doc)
-    appendToErrorList(listOfErrors, rulefrictionSleeveSurfaceQuotientFilled, doc)
-    
-    appendToErrorList(listOfErrors, ruleCptDepthFilled, doc)
-    appendToErrorList(listOfErrors, ruleCptCorrectedConeResistanceFilled, doc)
-    appendToErrorList(listOfErrors, ruleInclinationResultantFilled, doc)
-    
-    appendToErrorList(listOfErrors, ruleLocalFrictionFilled, doc)
-    appendToErrorList(listOfErrors, ruleFrictionRatioFilled, doc)
-    appendToErrorList(listOfErrors, ruleConeResistanceFilled, doc)
-    appendToErrorList(listOfErrors, ruleWaterSpanningU1Filled, doc)
-    appendToErrorList(listOfErrors, ruleWaterSpanningU2Filled, doc)
-
-    return listOfErrors
 
 def ruleCptDepthFilled(doc):
     if(cptParametersFilled(doc.getCptParametersMap(),'depth')):
