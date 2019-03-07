@@ -132,7 +132,7 @@
 							<ns6:TextEncoding blockSeparator=";"
 								decimalSeparator="." tokenSeparator="," />
 						</ns6:encoding>
-						<ns2:values xlin:href="?">0.300,0.300,111.9,3.467,3.467,3.467,7,7,7,0,3.610,-1,0,0,-1,0,1,4,0.042,0.885,20.2,0.001,0.002,0.004,0.9;</ns2:values>
+						<ns2:values xlin:href="?">0.300,-999999,111.9,3.467,3.467,3.467,7,7,7,0,3.610,-1,0,0,-1,0,1,4,0.042,0.885,20.2,0.001,0.002,0.004,0.9;0.300,2,111.9,3.467,3.467,3.467,7,7,7,0,3.610,-1,0,0,-1,0,1,4,0.042,0.885,20.2,0.001,0.002,0.004,0.9;0.300,5,111.9,3.467,3.467,3.467,7,7,7,0,3.610,-1,0,0,-1,0,1,4,0.042,0.885,20.2,0.001,0.002,0.004,0.9;0.300,-999999,111.9,3.467,3.467,3.467,7,7,7,0,3.610,-1,0,0,-1,0,1,4,0.042,0.885,20.2,0.001,0.002,0.004,0.9;0.300,50,111.9,3.467,3.467,3.467,7,7,7,0,3.610,-1,0,0,-1,0,1,4,0.042,0.885,20.2,0.001,0.002,0.004,0.9;0.300,7,111.9,3.467,3.467,3.467,7,7,7,0,3.610,-1,0,0,-1,0,1,4,0.042,0.885,20.2,0.001,0.002,0.004,0.9;</ns2:values>
 					</ns2:cptResult>
 				</ns2:conePenetrationTest>
 				<ns2:dissipationTest ns3:id="id-6bebe3d2-b8fb-45a0-ff9f5f-433a1205000e">
@@ -161,7 +161,7 @@
 							<ns6:TextEncoding blockSeparator=";"
 								decimalSeparator="." tokenSeparator="," />
 						</ns6:encoding>
-						<ns2:values xlin:href="?">11.9,43.599,0.111,0.116,0.141;</ns2:values>
+						<ns2:values xlin:href="?">11.9,43.599,0.111,0.116,0.141;11.9,48.200,0.111,0.116,0.141;11.9,49.599,0.111,0.116,0.141;</ns2:values>
 					</ns2:disResult>
 					<ns2:penetrationLength uom="m">0.350</ns2:penetrationLength>
 				</ns2:dissipationTest>
@@ -191,7 +191,7 @@
 							<ns6:TextEncoding blockSeparator=";"
 								decimalSeparator="." tokenSeparator="," />
 						</ns6:encoding>
-						<ns2:values xlin:href="?">11.9,43.599,0.111,0.116,0.141;</ns2:values>
+						<ns2:values xlin:href="?">11.9,43.599,0.111,0.116,0.141;11.9,45.599,0.111,0.116,0.141;11.9,50.599,0.111,0.116,0.141;</ns2:values>
 					</ns2:disResult>
 					<ns2:penetrationLength uom="m">0.350</ns2:penetrationLength>
 				</ns2:dissipationTest>
