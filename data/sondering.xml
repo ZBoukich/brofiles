@@ -161,7 +161,7 @@
 							<ns6:TextEncoding blockSeparator=";"
 								decimalSeparator="." tokenSeparator="," />
 						</ns6:encoding>
-						<ns2:values xlin:href="?">11.9,43.599,0.111,0.116,0.141;11.9,48.200,0.111,0.116,0.141;11.9,49.599,0.111,0.116,0.141;</ns2:values>
+						<ns2:values xlin:href="?">11.9,-999999,0.111,0.116,0.141;11.9,48.200,0.111,0.116,0.141;11.9,49.599,0.111,0.116,0.141;</ns2:values>
 					</ns2:disResult>
 					<ns2:penetrationLength uom="m">0.350</ns2:penetrationLength>
 				</ns2:dissipationTest>
