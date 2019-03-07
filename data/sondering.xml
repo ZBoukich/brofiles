@@ -75,7 +75,6 @@
 					<ns2:description>sondeerapparaat X; N ton; geen verankering</ns2:description>
 					<ns2:conePenetrometerType>type X</ns2:conePenetrometerType>
 					<ns2:coneSurfaceArea uom="mm2">1500</ns2:coneSurfaceArea>
-					<ns2:coneDiameter uom="mm">35</ns2:coneDiameter>
 					<ns2:coneSurfaceQuotient uom="1">0.58</ns2:coneSurfaceQuotient>
 					<ns2:coneToFrictionSleeveDistance
 						uom="mm">138</ns2:coneToFrictionSleeveDistance>
